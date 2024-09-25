@@ -24,7 +24,10 @@ pyTelegramBotAPI library
 
 You can install the necessary library using pip:
 
+  
+```python
 pip install pyTelegramBotAPI
+```
 
 Installation
 
