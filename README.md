@@ -33,21 +33,24 @@ Installation
 
 1. Clone the repository:
 
+```python
 git clone https://github.com/shantiya401/Goals.git
 cd Goals
+```
 
 
 2. Set up your bot token: Replace the placeholder token in the source code with your actual bot token.
 
+```python
 bot_token = "YOUR_BOT_TOKEN_HERE"
-
-
+```
 3. Run the bot:
 
 Execute the script to start the bot:
 
+```python
 python your_bot_script.py
-
+```
 
 
 Usage
@@ -103,11 +106,13 @@ Data Storage
 
 The bot saves the goals in a JSON file located in the json directory. The structure is as follows:
 
+```python
 {
   "short_term_goals": [],
   "long_term_goals": [],
   "passed_goals": []
 }
+```
 
 This setup allows for easy data retrieval and management.
 
